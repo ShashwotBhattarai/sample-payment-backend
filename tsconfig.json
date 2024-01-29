@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6", // or a newer ECMAScript version if you prefer
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
